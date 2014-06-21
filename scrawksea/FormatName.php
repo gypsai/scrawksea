@@ -4,6 +4,7 @@
 
 
 $con = mysql_connect("127.0.0.1","root","luom1ng");
+
 if (!$con)
   {
   die('Could not connect: ' . mysql_error());
